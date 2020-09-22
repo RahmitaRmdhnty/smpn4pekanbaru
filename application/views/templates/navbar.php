@@ -43,11 +43,14 @@
                       <div class="collapse navbar-collapse">
                         <span class="nook">&nbsp;</span>
                         <ul class="nav navbar-nav">
-                          <?php $currentUrl = explode('/', current_url()); ?>
-                          <?= ($currentUrl[5] == 'beranda') ? '<li class="active">' : '<li>' ?>
+                          <?php 
+                          $url = explode('/', current_url());
+                          $currentUrl = $url[4] ;
+                          ?>
+                          <?= ($currentUrl == 'beranda') ? '<li class="active">' : '<li>' ?>
                           <a href="<?= base_url('Welcome/beranda') ?>">Beranda</a>
                           </li>
-                          <?= ($currentUrl[5] == 'profil_sekolah') ? '<li class="dropdown active">' : '<li class="dropdown">' ?>
+                          <?= ($currentUrl == 'profil_sekolah') ? '<li class="dropdown active">' : '<li class="dropdown">' ?>
                           <a class="dropdown-toggle" data-toggle="dropdown">Profil Sekolah</a>
                           <ul class="dropdown-menu">
                             <li><a href="<?= base_url('Welcome/profil_sekolah/visi_misi') ?>">Visi &amp; Misi</a></li>
@@ -56,7 +59,7 @@
                             <li><a href="prestasi.html">Prestasi</a></li>
                           </ul>
                           </li>
-                          <?= ($currentUrl[5] == 'profil_guru') ? '<li class="active">' : '<li>' ?>
+                          <?= ($currentUrl == 'profil_guru') ? '<li class="active">' : '<li>' ?>
                           <a href="<?= base_url('Welcome/profil_guru') ?>">Profil Guru</a>
                           </li>
                           <li>
@@ -96,7 +99,7 @@
       </div>
     </header>
     <?php
-    if ($currentUrl[5] != 'beranda') : ?>
+    if ($currentUrl != 'beranda') : ?>
       <!-- Bagian Tengah -->
       <div class="tengah" id="main">
 
