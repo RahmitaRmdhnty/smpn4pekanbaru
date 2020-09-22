@@ -4,46 +4,25 @@
 		<div id="onebyone_carousel" class="carousel slide gallery-holder">
 			<div class="carousel-inner">
 				<div class="item active" style="background: url(<?= base_url('assets') ?>/img/slider1.JPG) no-repeat; background-size: cover; height: 600px; ">
-					<!-- <img src="<?= base_url('assets') ?>/img/slider1.JPG" alt=""> -->
 					<div class="slide_content">
 						<div class="container gambar-gerak">
 							<div class="hold-text pull-right">
-								<!-- <strong class="title animate0 rotateIn" style="opacity: 0;">Selamat Datang</strong>
-								<div class="hold animate1 rotateIn" style="opacity: 0;">
-									<p>Ini adalah website resmi SMK Negeri 1 Berau. Semoga dengan adanya website ini segala informasi dapat tersampaikan dengan <i>up-to-date.</i> Lihat Sambutan Kepala Sekolah kami di tombol berikut...</p>
-								</div>
-								<a href="#kepala-sekolah" class="btn btn-default btn-lg btn-white animate2 rotateIn" style="opacity: 0;">Sambutan</a> -->
-
 							</div>
 						</div>
 					</div>
-				</div><!-- /.item -->
+				</div>
 				<div class="item" style="background: url(<?= base_url('assets') ?>/img/slider2.JPG) no-repeat; background-size: cover; height: 600px; ">
-					<!-- <img src="<?= base_url('assets') ?>/img/slider2.JPG" alt=""> -->
 					<div class="slide_content">
 						<div class="container gambar-gerak">
 							<div class="hold-text pull-right">
-								<!-- <strong class="title animate0 rotateIn" style="opacity: 0;">Biru, Hijau, Asri</strong>
-								<div class="hold animate1 rotateIn" style="opacity: 0;">
-									<p>Dengan sangat bangga kami dedikasikan keindahan serta kecantikan sekolah kami dari dunia oleh dunia dan untuk dunia.</p>
-								</div>
-								<a href="#kepala-sekolah" class="btn btn-default btn-lg btn-white animate2 rotateIn" style="opacity: 0;">Sambutan</a> -->
-
 							</div>
 						</div>
 					</div>
 				</div><!-- /.item -->
 				<div class="item" style="background: url(<?= base_url('assets') ?>/img/slider3.JPG) no-repeat; background-size: cover; height: 600px; ">
-					<!-- <img src="<?= base_url('assets') ?>/img/slider3.JPG" alt=""> -->
 					<div class="slide_content">
 						<div class="container gambar-gerak">
 							<div class="hold-text pull-right">
-								<!-- <strong class="title animate0 rotateIn" style="opacity: 0;">Find your Target.</strong>
-								<div class="hold animate1 rotateIn" style="opacity: 0;">
-									<p>Choose one and take it home. Ngahahahaha XD</p>
-								</div>
-								<a href="#kepala-sekolah" class="btn btn-default btn-lg btn-white animate2 rotateIn" style="opacity: 0;">Sambutan</a> -->
-
 							</div>
 						</div>
 					</div>
@@ -63,10 +42,6 @@
 
 				<div class="col-sm-12">
 					<blockquote class="blockquote-about">
-						<!-- <cite class="author pull-left">
-								<span class="hold-img"><a href="kabar-sekolah-detail.html"><img src="aset/paket/images/img165.jpg" alt="image" width="85" height="87"></a></span>
-								<small>Oleh <a href="404.html">Administrator</a></small>
-							</cite> -->
 						<div class="block">
 							<span class="nook">&nbsp;</span>
 							<strong class="title"><a href="kabar-sekolah-detail.html"><b>SEMANGAT BELAJAR MENGHADAPI UJIAN SEKOLAH</b></a>
@@ -79,10 +54,6 @@
 
 				<div class="col-sm-12">
 					<blockquote class="blockquote-about">
-						<!-- <cite class="author pull-left">
-								<span class="hold-img"><a href="kabar-sekolah-detail.html"><img src="aset/paket/images/img33.jpg" alt="image" width="85" height="87"></a></span>
-								<small>Oleh <a href="404.html">Administrator</a></small>
-							</cite> -->
 						<div class="block">
 							<span class="nook">&nbsp;</span>
 							<strong class="title"><a href="kabar-sekolah-detail.html"><b>CLASS MEETING</b></a>
@@ -95,10 +66,6 @@
 
 				<div class="col-sm-12">
 					<blockquote class="blockquote-about">
-						<!-- <cite class="author pull-left">
-								<span class="hold-img"><a href="kabar-sekolah-detail.html"><img src="aset/paket/images/img166.jpg" alt="image" width="85" height="87"></a></span>
-								<small>Oleh <a href="404.html">Administrator</a></small>
-							</cite> -->
 						<div class="block">
 							<span class="nook">&nbsp;</span>
 							<strong class="title"><a href="kabar-sekolah-detail.html"><b>DESIGN GEDUNG BARU</b></a>
@@ -111,10 +78,6 @@
 
 				<div class="col-sm-12">
 					<blockquote class="blockquote-about">
-						<!-- <cite class="author pull-left">
-								<span class="hold-img"><a href="kabar-sekolah-detail.html"><img src="aset/paket/images/img167.jpg" alt="image" width="85" height="87"></a></span>
-								<small>Oleh <a href="404.html">Administrator</a></small>
-							</cite> -->
 						<div class="block">
 							<span class="nook">&nbsp;</span>
 							<strong class="title"><a href="kabar-sekolah-detail.html"><b>SELAMAT DATANG WEBSITE RESMI SMKN 1 BERAU</b></a>
@@ -126,17 +89,6 @@
 				</div>
 
 				<div class="wrap-space">
-					<!-- <ul class="pagination pagination-lg pagination-business">
-							<li class="prev"><a href="404.html">«</a></li>
-							<li class="active"><a href="404.html">1</a></li>
-							<li><a href="404.html">2</a></li>
-							<li><a href="404.html">3</a></li>
-							<li><a href="404.html">4</a></li>
-							<li>
-								<span>...</span></li>
-							<li class="next"><a href="404.html">»</a></li>
-						</ul> -->
-
 				</div>
 			</div>
 
@@ -156,49 +108,6 @@
 					</div>
 				</div>
 			</div>
-
-			<!--
-			<div class="col-md-6 ">
-				<div class="col-sm-3 pic">
-					<img width="121" src="<?= base_url('assets') ?>/img/2.png" alt="">
-				</div>
-				<div class="col-sm-9 posts">
-					<h3 style="font-family: 'Bebas Neue'; line-height: 30px; color:#008bc3;">Visi</h3>
-					<p style="font-size: 16px; font-weight: bold;">Terwujudnya SMP Negeri 4 Pekanbaru sebagai Pusat
-						Pengembangan IPTEK, IMTAQ, dan Berwawasan Lingkungan yang Madani serta Mampu Berkompetisi.
-					</p>
-				</div>
-			</div>
-
-			<div class="col-md-6 ">
-				<div class="col-sm-3 pic">
-					<img width="121" src="<?= base_url('assets') ?>/img/3.png" alt="">
-				</div>
-				<div class="col-sm-9 posts">
-					<h3 style="font-family: 'Bebas Neue'; line-height: 30px; color:#008bc3;">Misi</h3>
-					<ol style="font-size: 16px; font-weight: bold;">
-						<li> Meningkatkan pelayanan pembelajaran dan bimbingan siswa secara efektif dan efisien. </li>
-						<li> Meningkatkan pengahayatan dan pengamalan siswa terhadap agamanya serta menerapkan nilai-nilai karakter dalam kegiatan kesehariannya. </li>
-						<li> Meningkatkan dan memotivasi setiap siswa untuk mengenal potensi dirinya, sehingga dapat dikembangkan secara optimal. </li>
-						<li> Menumbuh kembangkan, kreativitas dan inovasi terhadap budaya Riau dan Nasional. </li>
-						<li> Meningkatkan prestasi dalam lomba-lomba akademis dan non akademis bertaraf propinsi, nasinonal dan Internasional. </li>
-						<li> Menerapkan manajemen partisipasi dengan melibatkan seluruh warga sekolah bagi kepentingan warga sekolah. </li>
-						<li> Menumbuh kembangkan, kreativitas dan inovasi terhadap pelestarian Lingkungan. </li>
-					</ol>
-				</div>
-			</div>
-
-		</div>
-
-		<div class="i-am-centered">
-			<div class="row">
-				<h1>KATA PENGANTAR</h1>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis voluptatem delectus ullam velit qui magnam eius aspernatur harum eveniet pariatur voluptate quo iste assumenda, libero ut ex cum a minus.
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, fugiat quo. Numquam ducimus aliquam eligendi nihil fuga. Inventore, consequuntur quibusdam aut deleniti, quis consequatur quo quod et labore, modi a.
-					Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam odio delectus quaerat saepe? Blanditiis voluptatibus recusandae modi doloremque, deleniti aspernatur, sapiente provident placeat architecto, vitae id ducimus pariatur mollitia quasi!</p>
-			</div>
-		</div> -->
-
 		</div>
 	</div>
 </div>

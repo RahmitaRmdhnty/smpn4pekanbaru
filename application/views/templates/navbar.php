@@ -20,14 +20,6 @@
                       </fieldset>
                     </form>
                   </div>
-                  <!-- <div class="profiles-box pull-right active">
-                    <a href="#" class="link-profiles pull-left">Akun Resmi</a>
-                    <ul class="tools tools-middle pull-left">
-                      <li><a href="http://fb.me/novaymawbowo" target="_blank"><span class="fa-icon-facebook-sign"></span></a></li>
-                      <li><a href="http://twitter.com/NovayMawbowo" target="_blank"><span class="fa-icon-twitter"></span></a></li>
-                      <li><a href="http://google.com/+NovayMawbowo" target="_blank"><span class="fa-icon-google-plus"></span></a></li>
-                    </ul>
-                  </div> -->
                 </div>
               </div>
             </section>
@@ -53,19 +45,19 @@
                         <ul class="nav navbar-nav">
                           <?php $currentUrl = explode('/', current_url()); ?>
                           <?= ($currentUrl[5] == 'beranda') ? '<li class="active">' : '<li>' ?>
-                          <a href="<?= base_url('welcome/beranda') ?>">Beranda</a>
+                          <a href="<?= base_url('Welcome/beranda') ?>">Beranda</a>
                           </li>
                           <?= ($currentUrl[5] == 'profil_sekolah') ? '<li class="dropdown active">' : '<li class="dropdown">' ?>
                           <a class="dropdown-toggle" data-toggle="dropdown">Profil Sekolah</a>
                           <ul class="dropdown-menu">
-                            <li><a href="<?= base_url('welcome/profil_sekolah/visi_misi') ?>">Visi &amp; Misi</a></li>
+                            <li><a href="<?= base_url('Welcome/profil_sekolah/visi_misi') ?>">Visi &amp; Misi</a></li>
                             <li><a href="sarana-prasarana.html">Sarana &amp; Prasarana</a></li>
                             <li><a href="program-kegiatan.html">Program &amp; Kegiatan </a></li>
                             <li><a href="prestasi.html">Prestasi</a></li>
                           </ul>
                           </li>
                           <?= ($currentUrl[5] == 'profil_guru') ? '<li class="active">' : '<li>' ?>
-                          <a href="<?= base_url('welcome/profil_guru') ?>">Profil Guru</a>
+                          <a href="<?= base_url('Welcome/profil_guru') ?>">Profil Guru</a>
                           </li>
                           <li>
                             <a href="galeri.html">Galeri</a>
@@ -125,9 +117,6 @@
                 } else {
                   continue;
                 } ?>
-                <!-- <li><a href="index.html">Beranda</a></li>
-                <li><a href="404.html">Profil Sekolah</a></li>
-                <li class="active">Visi &amp; Misi</li> -->
               <?php endforeach; ?>
             </ol>
           </div>

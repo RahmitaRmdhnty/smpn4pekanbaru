@@ -5,7 +5,7 @@ class Welcome extends CI_Controller
 {
 	public function index()
 	{
-		redirect('welcome/beranda');
+		redirect('Welcome/beranda');
 	}
 
 	public function beranda()
@@ -21,7 +21,7 @@ class Welcome extends CI_Controller
 				$this->loadView('welcome/visi_misi', 'Visi Misi', $data);
 				break;
 			default:
-				redirect('welcome/profil_sekolah/visi_misi');
+				redirect('Welcome/profil_sekolah/visi_misi');
 				break;
 		}
 	}
