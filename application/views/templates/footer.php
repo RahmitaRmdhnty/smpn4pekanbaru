@@ -6,9 +6,10 @@
     <div class="container">
       <div class="row">
         <div class="col-md-5 col-sm-6">
-          <p>&copy; 2014 Hak Cipta Dilindungi. Develop oleh <a href="http://novay.web.id/">Mahakam Team</a></p>
+          <!-- <p>&copy; 2014 Hak Cipta Dilindungi. Develop oleh <a href="http://novay.web.id/">Mahakam Team</a></p> -->
+          <p>Sekolah Menengah Pertama Negri 4 Pekanbaru.</p>
         </div>
-        <div class="col-md-7 col-sm-6">
+        <!-- <div class="col-md-7 col-sm-6">
           <ul class="list list-inline pull-right">
             <li><a href="index.html">Beranda</a></li>
             <li><a href="kabar-sekolah.html">Kabar Sekolah</a></li>
@@ -16,7 +17,7 @@
             <li><a href="buku-tamu.html">Buku Tamu</a></li>
             <li><a href="#top">Kembali Ke Atas</a></li>
           </ul>
-        </div>
+        </div> -->
       </div>
     </div>
   </footer>
