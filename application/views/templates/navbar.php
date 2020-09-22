@@ -112,7 +112,7 @@
         <div class="hold-breadcrumbs">
           <div class="container">
             <ol class="breadcrumb breadcrumb-site">
-              <?php foreach ($currentUrl as $key => $value) : ?>
+              <?php foreach ($url as $key => $value) : ?>
                 <?php
                 if ($key >= 4) {
                   $str = ucwords(str_replace('_', ' ', $value));
