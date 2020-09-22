@@ -66,7 +66,7 @@
                             <a href="galeri.html">Galeri</a>
                           </li>
                           <li>
-                            <a href="buku-tamu.html">Perpustakaan</a>
+                            <a href="http://perpus.smpn4pekanbaru.sch.id/">Perpustakaan</a>
                           </li>
                           <li class="last">&nbsp;</li>
                         </ul>
