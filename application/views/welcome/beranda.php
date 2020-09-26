@@ -11,7 +11,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="item" style="background: url(<?= base_url('assets') ?>/img/slider2.JPG) no-repeat; background-size: cover; height: 600px; ">
+				<div class="item" style="background: url(<?= base_url('assets') ?>/img/slider2.jpg) no-repeat; background-size: cover; height: 600px; ">
 					<div class="slide_content">
 						<div class="container gambar-gerak">
 							<div class="hold-text pull-right">
@@ -19,7 +19,7 @@
 						</div>
 					</div>
 				</div><!-- /.item -->
-				<div class="item" style="background: url(<?= base_url('assets') ?>/img/slider3.JPG) no-repeat; background-size: cover; height: 600px; ">
+				<div class="item" style="background: url(<?= base_url('assets') ?>/img/slider3.jpg) no-repeat; background-size: cover; height: 600px; ">
 					<div class="slide_content">
 						<div class="container gambar-gerak">
 							<div class="hold-text pull-right">
