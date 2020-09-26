@@ -1732,7 +1732,7 @@ button.btn-details.btn-add:focus {
 .crewman.crewman-center .hold-img {
 	position: absolute;
 	top: 0px;
-	left: 50%;
+	left: 60%;
 	margin: 0 0 0 -105px;
 }
 .crewman.crewman-center .hold-img img {

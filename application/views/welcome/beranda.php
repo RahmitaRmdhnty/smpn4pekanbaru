@@ -97,13 +97,13 @@
 					<div class="frame sambutan" id="kepala-sekolah">
 						<div class="hold-line">
 							<span class="hold-img">
-								<img class="img-circle" src="<?= base_url('assets') ?>/img/icon.jpg" alt="" width="210" height="210">
+								<img class="img-circle" src="<?= base_url('assets') ?>/img/kepseksmp4.jpeg" alt="" style="max-width: 210px; max-height: 210px;">
 							</span>
-							<strong class="title">Kepala Sekolah Name</strong>
+							<strong class="title">Dr. Rukiah, M.Pd</strong>
 							<strong class="office">Kepala Sekolah</strong>
 						</div>
 						<div class="hold-line">
-							<p>Assalamu'alaikum wr.wb.</p>
+							<!-- <p>Assalamu'alaikum wr.wb.</p> -->
 						</div>
 					</div>
 				</div>
