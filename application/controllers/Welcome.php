@@ -3,6 +3,11 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 class Welcome extends CI_Controller
 {
+	public function __construct()
+	{
+		parent::__construct();
+		$this->load->model('Blog_Model', 'Blog');
+	}
 	public function index()
 	{
 		redirect('Welcome/beranda');
@@ -10,7 +15,8 @@ class Welcome extends CI_Controller
 
 	public function beranda()
 	{
-		$this->loadView('welcome/beranda', 'Beranda');
+		$data['blogs'] = $this->Blog->getBlogList();
+		$this->loadView('welcome/beranda', 'Beranda', $data);
 	}
 
 	public function profil_sekolah($subjudul = '')
