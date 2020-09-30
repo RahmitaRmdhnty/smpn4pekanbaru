@@ -46,7 +46,7 @@
 							<div class="block">
 								<span class="nook">&nbsp;</span>
 								<strong class="title"><a href="kabar-sekolah-detail.html"><b><?= $blog['post_title'] ?></b></a>
-									<small>Terbit pada <?= $blog['post_date'] ?> | <a href="kabar-sekolah-detail.html#komentar">5 Komentar</a></small>
+									<small>Terbit pada <?= $blog['post_date'] ?> | <a href="kabar-sekolah-detail.html#komentar"><?= $blog['comment_count'] ?> Komentar</a></small>
 								</strong>
 								<q><?= substr($blog['post_content'], 0, 180) ?>...</q>
 								<a href="<?= $blog['guid'] ?>">Baca selengkapnya...</a>
