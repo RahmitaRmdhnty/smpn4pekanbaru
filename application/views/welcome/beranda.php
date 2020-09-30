@@ -45,10 +45,11 @@
 						<blockquote class="blockquote-about">
 							<div class="block">
 								<span class="nook">&nbsp;</span>
-								<strong class="title"><a href="kabar-sekolah-detail.html"><b><?= $blog['post_title'] ?></b></a>
-									<small>Terbit pada <?= $blog['post_date'] ?> | <a href="kabar-sekolah-detail.html#komentar"><?= $blog['comment_count'] ?> Komentar</a></small>
+								<strong class="title"><a href="<?= $blog['guid'] ?>"><b><?= $blog['post_title'] ?></b></a>
+									<small>Terbit pada <?= $blog['post_date'] ?> | <?= $blog['comment_count'] ?> Komentar</small>
 								</strong>
-								<q><?= substr($blog['post_content'], 0, 180) ?>...</q>
+								<hr>
+								<?= substr($blog['post_content'], 0, 180) ?>...
 								<a href="<?= $blog['guid'] ?>">Baca selengkapnya...</a>
 							</div>
 						</blockquote>
