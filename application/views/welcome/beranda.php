@@ -49,8 +49,8 @@
 									<small>Terbit pada <?= $blog['post_date'] ?> | <?= $blog['comment_count'] ?> Komentar</small>
 								</strong>
 								<hr>
-								<?= substr($blog['post_content'], 0, 180) ?>...<br>
-								<a href="<?= $blog['guid'] ?>">Baca selengkapnya...</a>
+								<p><?= substr($blog['post_content'], 0, 180) ?>...</p><br>
+								<p><a href="<?= $blog['guid'] ?>">Baca selengkapnya...</a></p>
 							</div>
 						</blockquote>
 					</div>
