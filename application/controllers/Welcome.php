@@ -41,8 +41,9 @@ class Welcome extends CI_Controller
 
 	public function galeri()
 	{
-		$data['headerTitle'] = 'Galeri Kegiatan';
-		$this->load->view('welcome/galeri', 'Galeri Kegiatan', $data);
+		$data['headerTitle'] = 'Galeri';
+		$data['photos'] = $this->dataGaleri();
+		$this->loadView('welcome/galeri', 'Galeri', $data);
 	}
 
 	public function events()
@@ -391,6 +392,73 @@ class Welcome extends CI_Controller
 			],
 		];
 	}
+
+	public function dataGaleri()
+	{
+		return [
+			[
+				"ket" => "Ekstrakurikuler Paskibra",
+				"foto_kegiatan" => "1.JPG"
+			],
+			[
+				"ket" => "Kegiatan Membaca Kitab Suci Sesuai Agama Masing - Masing",
+				"foto_kegiatan" => "2.JPG"
+			],
+			[
+				"ket" => "Kegiatan Membaca Kitab Suci Sesuai Agama Masing - Masing",
+				"foto_kegiatan" => "3.jpg"
+			],
+			[
+				"ket" => "Kegiatan Membaca Kitab Suci Sesuai Agama Masing - Masing",
+				"foto_kegiatan" => "4.jpg"
+			],
+			[
+				"ket" => "Bersalaman dengan Guru Sebelum Memasuki Gerbang",
+				"foto_kegiatan" => "5.JPG"
+			],
+			[
+				"ket" => "Bersalaman dengan Guru Sebelum Memasuki Gerbang",
+				"foto_kegiatan" => "6.JPG"
+			],
+			[
+				"ket" => "Lomba Poster antar Kelas",
+				"foto_kegiatan" => "7.JPG"
+			],
+			[
+				"ket" => "Lomba Poster antar Kelas",
+				"foto_kegiatan" => "13.JPG"
+			],
+			[
+				"ket" => "Lomba Poster antar Kelas",
+				"foto_kegiatan" => "14.JPG"
+			],
+			[
+				"ket" => "Fashion Show Pakaian Daerah",
+				"foto_kegiatan" => "8.JPG"
+			],
+			[
+				"ket" => "Fashion Show Pakaian Daerah",
+				"foto_kegiatan" => "9.JPG"
+			],
+			[
+				"ket" => "Fashion Show Pakaian Daerah",
+				"foto_kegiatan" => "10.JPG"
+			],
+			[
+				"ket" => "Lomba antar Kelas",
+				"foto_kegiatan" => "11.JPG"
+			],
+			[
+				"ket" => "Lomba antar Kelas",
+				"foto_kegiatan" => "12.JPG"
+			],
+			[
+				"ket" => "Kegiatan Guru",
+				"foto_kegiatan" => "15.JPG"
+			]
+		];
+	}
+
 
 	/** 
 	 * Load View
