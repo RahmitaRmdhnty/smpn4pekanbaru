@@ -60,8 +60,8 @@
                           <?= ($currentUrl == 'profil_guru') ? '<li class="active">' : '<li>' ?>
                           <a href="<?= base_url('Welcome/profil_guru') ?>">Profil Guru</a>
                           </li>
-                          <li>
-                            <a href="galeri.html">Galeri</a>
+                          <?= ($currentUrl == 'galeri') ? '<li class="active">' : '<li>' ?>
+                          <a href="<?= base_url('Welcome/galeri') ?>">Galeri</a>
                           </li>
                           <li>
                             <a href="http://perpus.smpn4pekanbaru.sch.id/">Perpustakaan</a>

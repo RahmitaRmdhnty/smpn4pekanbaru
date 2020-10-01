@@ -35,7 +35,8 @@ class Welcome extends CI_Controller
 
 	public function gallery()
 	{
-		$this->load->view('gallery');
+		$data['headerTitle'] = 'Galeri Kegiatan';
+		$this->load->view('welcome/galeri', 'Galeri Kegiatan', $data);
 	}
 
 	public function events()
