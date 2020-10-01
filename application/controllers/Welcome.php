@@ -33,7 +33,7 @@ class Welcome extends CI_Controller
 		$this->loadView('welcome/profil_guru', 'Profil Guru', $data);
 	}
 
-	public function gallery()
+	public function galeri()
 	{
 		$data['headerTitle'] = 'Galeri Kegiatan';
 		$this->load->view('welcome/galeri', 'Galeri Kegiatan', $data);
