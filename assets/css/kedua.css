@@ -26,15 +26,6 @@
 
 .mothernail img {
 	display: block;
-	width: 250px;
-	height: 250px;
-	max-width: 250px;
-	max-height: 250px;
-	object-fit: cover;
-}
-
-.mothernail img.galeri {
-	display: block;
 	width: 300px;
 	height: 300px;
 	max-width: 300px;
